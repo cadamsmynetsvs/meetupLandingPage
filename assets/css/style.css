@@ -87,11 +87,11 @@ nav a:focus { color: #e8643e; }
 	margin: 0;
 }
 
-.coming-soon .logo a {
+.coming-soon .logo img {
 	display: inline-block;
 	width: 113px;
 	height: 110px;
-	background: url(../img/logo.png) center center no-repeat;
+	background: url(../img/netsvsLogo.png) center center no-repeat;
 	text-indent: -99999px;
 }
 .coming-soon .logo a:focus { outline: 0; }
@@ -610,17 +610,27 @@ footer {
 
 /***** Case Studies styles ****/
 
-
+/* Off Hover */
 .box{width:300px; height:250px; border:1px solid #000; border-radius:2px; float:left; margin:20px 30px;  }
 .box img{width:300px; height:250px;}
-.box .overlay{width:300px; height:250px; background:#fff; margin:-250px 0px 0px 0px; opacity:0.5; }
+.box .overlay{width:300px; height:250px; background:#fff; margin:-250px 0px 0px 0px; opacity:0.1; }
 .box a{padding:5px 7px; border:1px solid #000; text-decoration:none; font-family:sans-serif; font-size:14px; margin:-140px 0px 0px 15px; display:inline-block; opacity:0; transition:all 0.5s ease-in-out;    cursor: pointer;/* z-index: 10000; */position: absolute;}
 
 
-
-.box .overlay:hover{opacity:0.1; transition:all 0.5s ease-in-out; width:300px; margin-left:50px; float:right; }
+/* On Hover */
+.box .overlay:hover{opacity:0.9; transition:all 0.5s ease-in-out; width:300px; margin-left:50px; float:right; }
 .box:hover{box-shadow:0px 0px 10px #6A6A6A; border:1px solid #00DFDF;transition:all 0.5s ease-in-out;}
 .box:hover a{opacity:1; background:#FFFFFF; color:#000000; margin:-40px 0px 0px 15px;  border-radius:1px; }
 .box a:hover{border:1px solid #00DFDF;transition:all 0.5s ease-in-out;   }
 
 
+/** Logo Styles **/
+.logoStyles {
+	height: 75%;
+	width: 75%;
+}
+
+.mainHeaderLogo {
+	width: 25%;
+	height: 25%;
+}
