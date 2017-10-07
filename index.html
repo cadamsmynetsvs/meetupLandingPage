@@ -35,11 +35,10 @@
 		<!-- Top menu -->
 		<nav>
 			<a class="menu-top" href="">Top</a>
-			<a class="menu-subscribe" href="">Subscribe</a>
-			<a class="menu-project" href="">The project</a>
-			<a class="menu-testimonials" href="">Testimonials</a>
-			<a class="menu-about-us" href="">About us</a>
-			<a class="menu-contact" href="">Contact</a>
+			<a class="menu-project" href="">Our Sponsors</a>
+			<a class="menu-testimonials" href="">RPA Overview</a>
+			<a class="menu-about-us" href="">Our Speakers</a>
+			<a class="menu-contact" href="">Case Studies</a>
 			<div class="hide-menu">
 				<a href="" rel="tooltip" data-placement="bottom" data-original-title="Hide menu">
 					<i class="fa fa-bars"></i>
@@ -53,17 +52,17 @@
 		</div>
 		
         <!-- Coming Soon -->
-        <div class="coming-soon">
+        <div id="coming-soon" class="coming-soon" style="background-color: #e1eef6;">
             <div class="inner-bg">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-12">
-								<img class="mainHeaderLogo" src="assets/img/netsvsLogo.png">
-                            <h2 style="color: #282c37;">Meetup Coming Soon</h2>
-                            <p>
-                            	Time remaining until our next meetup:
-                            </p>
-                            <div class="timer">
+						<img class="mainHeaderLogo" src="assets/img/netsvsLogo.png" id="mainHeaderLogo">
+						<div id="timer-container" class="col-sm-12">
+                            <h2 id="mainHeaderh2">Meetup Coming Soon</h2>
+                            <!--<p id="mainHeaderP">-->
+                            	<!--Time remaining until our next meetup:-->
+                            <!--</p>-->
+                            <div class="timer" id="timerDiv">
                                 <div class="days-wrapper">
                                     <span class="days"></span> <br><br>days
                                 </div>
@@ -77,7 +76,7 @@
                                     <span class="seconds"></span> <br><br>seconds
                                 </div>
                             </div>
-                            <p class="top-arrow">
+                            <p id="chevronArrow" class="top-arrow">
                             	<i class="fa fa-chevron-down"></i>
                             </p>
                         </div>
@@ -86,7 +85,7 @@
             </div>
         </div>
 		
-        <!-- About the new site -->
+        <!-- Our Sponsors -->
         <div class="about-container">
 	        <div class="container">
 	            <div class="row">
@@ -134,106 +133,55 @@
 	        </div>
         </div>
 
-		<!-- Testimonials -->
+		<!-- RPA Overview -->
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 testimonials">
 					<h3 style="color: #3d3d3d;">RPA Overview</h3>
-					<!--<div class="testimonial-active"></div>-->
-					<!--<div class="testimonial-quote">&ldquo; &rdquo;</div>-->
-					<!--<div class="testimonial-single">-->
-					<div class="col-md-4">
-						<p>
-							Robot automation is here to stay and companies are increasingly realizing the need to adopt in order to gain a competitive edge.
+					<div class="col-md-6">
+						<p style="text-align: left;">
+							<span id="capitalLetterRobot">R</span>obot automation is here to stay and companies are increasingly realizing the need to adopt in order to gain a competitive edge.
 							Robotic Process Automation (RPA)delivers direct profitability while improving accuracy across organizations and industries, often
 							allowing employees to move on from the mundane repetitive tasks and on to real issue where their skills can be better used.
 							In addition, RPA platforms can run 24-7, automating repetitive tasks by using software robots to interpret, trigger responses and communicate with other enterprise systems.
 						</p>
-							<br>
-					</div>
-					<div class="col-md-4">
-						<p>
-							Every day, more companies are using RPA to transform and streamline their various workflows. RPA allows for increased flexibility and scalability
+						<p style="text-align: left;">
+							<span id="capitalLetterEvery">E</span>very day, more companies are using RPA to transform and streamline their various workflows. RPA allows for increased flexibility and scalability
 							throughout the enterprise, allowing for strategic and quick time to value responses to recognized needs.
 							RPA platforms can range from the simple; easily trained by non-technical personal to the complex, involving; data extraction,
 							data warehousing, data pipeline creation, scalable cloud infrastructure and micro service based web services.
 						</p>
-							<br>
 					</div>
-					<div class="col-md-4">
-						<p>
-							RPA delivers in speed, accuracy and ROI across an ever increasing number of fields, excelling in fields such as; banking & finance,
-							insurance, healthcare, manufacturing, retail and intelligence gathering. The combination of software robots with disciplines such as
-							machine learning and natural language processing, power RPA to provide a virtually boundless spectrum of solutions to automate complex
-							tasks such as; process automation, data collection, governance & compliance, due diligence, KYC, research and more.
+					<!--<div class="col-md-4">-->
+
+					<!--</div>-->
+					<!--<div class="col-md-4">-->
+
+					<!--</div>-->
+					<br>
+					<br>
+					<div class="col-md-6" style="background-color: #e1eef6;">
+						<p style="text-align: left;">
+							<strong><u>Agenda</u></strong><br>
+							<strong>5:00 pm</strong> –Check In & Refreshments<br>
+							<strong>6:00 pm</strong> –Presentations<br>
+							<strong>7:20 pm</strong> –Open Discussion –Where Can RPA Help You, Open Q&A<br>
+							<strong>7:50 pm</strong> –Closing Remarks/Giveaway Prizes<br><br>
+							<strong><u>Topics will include:</u></strong><br>
+							What is Robot Process Automation (RPA)?<br>
+							Smart or Dumb Robots?<br>
+							Machine Learning and RPA<br>
+							Robots sometimes REST!!<br>
+							Combining data centric RPA and ETL to create synthetic REST APIs<br>
+							Examples of RPA at work (Overview of use cases with ROI)<br>
+							Deeper Dive into RPA at work (Automating Market Research)
 						</p>
 					</div>
-						<!--<div class="testimonial-single-image">-->
-							<!--<img src="assets/img/testimonials/1.jpg" alt="">-->
-						<!--</div>-->
-					<!--</div>-->
-					<!--<div class="testimonial-single">-->
-						<!--<p>-->
-							<!--Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt-->
-							<!--ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor-->
-							<!--incididunt ut labore et. Lorem ipsum dolor sit amet.-->
-							<!--<br>-->
-							<!--<a href="">Jane Jonsson, blog.jane.com</a>-->
-						<!--</p>-->
-						<!--<div class="testimonial-single-image">-->
-							<!--<img src="assets/img/testimonials/2.jpg" alt="">-->
-						<!--</div>-->
-					<!--</div>-->
-					<!--<div class="testimonial-single">-->
-						<!--<p>-->
-							<!--Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit-->
-							<!--lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam,-->
-							<!--quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut.-->
-							<!--<br>-->
-							<!--<a href="">John Doe, johndoe.com</a>-->
-						<!--</p>-->
-						<!--<div class="testimonial-single-image">-->
-							<!--<img src="assets/img/testimonials/3.jpg" alt="">-->
-						<!--</div>-->
-					<!--</div>-->
-					<!--<div class="testimonial-single">-->
-						<!--<p>-->
-							<!--Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt-->
-							<!--ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor-->
-							<!--incididunt ut labore et. Lorem ipsum dolor sit amet.-->
-							<!--<br>-->
-							<!--<a href="">Jane Jonsson, blog.jane.com</a>-->
-						<!--</p>-->
-						<!--<div class="testimonial-single-image">-->
-							<!--<img src="assets/img/testimonials/2.jpg" alt="">-->
-						<!--</div>-->
-					<!--</div>-->
 				</div>
 			</div>
 		</div>
 
-		<!-- Subscription form -->
-		<!--<div class="container">-->
-			<!--<div class="row">-->
-				<!--<div class="col-sm-12 subscribe">-->
-					<!--<h3>Subscribe to our newsletter</h3>-->
-					<!--<p>Sign up now to our newsletter and you'll be one of the first to know when the site is ready:</p>-->
-					<!--<form class="form-inline" role="form" action="assets/subscribe.php" method="post">-->
-						<!--<div class="form-group">-->
-							<!--<label class="sr-only" for="subscribe-email">Email address</label>-->
-							<!--<input type="text" name="email" placeholder="Enter your email..." class="subscribe-email form-control" id="subscribe-email">-->
-						<!--</div>-->
-						<!--<button type="submit" class="btn">Subscribe</button>-->
-					<!--</form>-->
-					<!--<div class="success-message"></div>-->
-					<!--<div class="error-message"></div>-->
-				<!--</div>-->
-			<!--</div>-->
-		<!--</div>-->
-        
-
-        
-        <!-- Our team bio -->
+        <!-- Our Speakers -->
         <div class="whos-behind-container">
 	        <div class="container">
 	            <div class="row">
@@ -312,122 +260,163 @@
 						Select the case studies that you would like to receive more information on.
 					</p>
 				</div>
-				<div class="box">
+				<div id="boxContainer">
+					<div class="box" onmouseover="additionalTextCaseStudy1();" onmouseout="originalTextCaseStudy1();">
+						<img src="http://www.planwallpaper.com/static/images/Eiffel-Tower-lanscape-Wallpaper-HD.jpg" />
+						<div class="overlay">
+							<p id="caseStudy1OriginalText" class="box_p"><strong>Deutsche Telekom M2M Competence Center wanted to provide excellent M2M customer service experience with
+								their eCall Service: A smart emergency system installed in cars that—in the event of a serious road accident—reaches out to local emergency agencies wirelessly,
+								sending airbag deployment and impact sensor information, as well as GPS coordinates. There were various analysis tasks required (e.g. authentication of the SIM
+								card’s serial number, checking activation status, etc.). This process was quite time consuming as it required manual analysis of data that is distributed over
+								several applications—some of which could not be integrated into existing solutions because there were no APIs.</strong></p>
+							<p id="caseStudy1AdditionalText" style="display: none;"><strong>This is some alternative text so you can now see it!.</strong></p>
+						</div>
+						<div>
+							<input type="checkbox" name="cb" id="cb1" />
+							<label for="cb1">Send me case study</label>
+						</div>
+					</div>
+
+					<div class="box" onmouseover="additionalTextCaseStudy2();" onmouseout="originalTextCaseStudy2();">
+						<img src="http://www.planwallpaper.com/static/images/colorful-easter-eggs-holiday-hd-wallpaper-1920x1200-10811.jpg" />
+						<div class="overlay">
+							<p id="caseStudy2OriginalText" class="box_p"><strong>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do
+								that so we can keep test test test the test some more test.</strong></p>
+							<p id="caseStudy2AdditionalText" style="display: none;"><strong>This is some alternative text so you can now see it!.</strong></p>
+						</div>
+						<div>
+							<input type="checkbox" name="cb" id="cb2" />
+							<label for="cb2">Send me case study</label>
+						</div>
+					</div>
+
+					<div class="box" onmouseover="additionalTextCaseStudy3();" onmouseout="originalTextCaseStudy3();">
+						<img src="http://www.planwallpaper.com/static/images/HD-Wallpapers1_FOSmVKg.jpeg" />
+						<div class="overlay">
+							<p id="caseStudy3OriginalText" class="box_p"><strong>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go
+								ahead and do that so we can keep test test test the test some more test.</strong></p>
+							<p id="caseStudy3AdditionalText" style="display: none;"><strong>This is some alternative text so you can now see it!.</strong></p>
+						</div>
+						<div>
+							<input type="checkbox" name="cb" id="cb3" />
+							<label for="cb3">Send me case study</label>
+						</div>
+					</div>
+
+					<div class="box" onmouseover="additionalTextCaseStudy4();" onmouseout="originalTextCaseStudy4();">
+						<img src="http://www.planwallpaper.com/static/images/79438-blue-world-map_nJEOoUQ.jpg" />
+						<div class="overlay">
+							<p id="caseStudy4OriginalText"><strong>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do
+								that so we can keep test test test the test some more test.</strong></p>
+							<p id="caseStudy4AdditionalText" style="display: none;"><strong>This is some alternative text so you can now see it!.</strong></p>
+						</div>
+						<div>
+							<input type="checkbox" name="cb" id="cb4" />
+							<label for="cb4">Send me case study</label>
+						</div>
+					</div>
+
+					<div class="box" onmouseover="additionalTextCaseStudy5();" onmouseout="originalTextCaseStudy5();">
+					<img src="http://www.planwallpaper.com/static/images/6768666-1080p-wallpapers.jpg" />
+						<div class="overlay">
+							<p id="caseStudy5OriginalText"><strong>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do that so we
+								can keep test test test the test some more test.</strong></p>
+							<p id="caseStudy5AdditionalText" style="display: none;"><strong>This is some alternative text so you can now see it!.</strong></p>
+						</div>
+						<div>
+							<input type="checkbox" name="cb" id="cb5" />
+							<label for="cb5">Send me case study</label>
+						</div>
+					</div>
+
+					<div class="box" onmouseover="additionalTextCaseStudy6();" onmouseout="originalTextCaseStudy6();">
+					<img src="http://www.planwallpaper.com/static/images/6768666-1080p-wallpapers.jpg" />
+						<div class="overlay">
+							<p id="caseStudy6OriginalText"><strong>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do that so we
+								can keep test test test the test some more test.</strong></p>
+							<p id="caseStudy6AdditionalText" style="display: none;"><strong>This is some alternative text so you can now see it!.</strong></p>
+						</div>
+						<div>
+							<input type="checkbox" name="cb" id="cb6" />
+							<label for="cb6">Send me case study</label>
+						</div>
+					</div>
+					<div class="box" onmouseover="additionalTextCaseStudy7();" onmouseout="originalTextCaseStudy7();">
 					<img src="http://www.planwallpaper.com/static/images/Eiffel-Tower-lanscape-Wallpaper-HD.jpg" />
-					<div class="overlay">
-						<p>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do that so we can keep test test test the test some more test.</p>
+						<div class="overlay">
+							<p id="caseStudy7OriginalText"><strong>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do that so we
+								can keep test test test the test some more test.</strong></p>
+							<p id="caseStudy7AdditionalText" style="display: none;"><strong>This is some alternative text so you can now see it!.</strong></p>
+						</div>
+						<div>
+							<input type="checkbox" name="cb" id="cb7" />
+							<label for="cb7">Send me case study</label>
+						</div>
 					</div>
-					<div>
-						<span>Send me case study <input id="caseStudy1" type="checkbox"></span>
-					</div>
-				</div>
 
-				<div class="box">
+					<div class="box" onmouseover="additionalTextCaseStudy8();" onmouseout="originalTextCaseStudy8();">
 					<img src="http://www.planwallpaper.com/static/images/colorful-easter-eggs-holiday-hd-wallpaper-1920x1200-10811.jpg" />
-					<div class="overlay">
-						<p>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do that so we can keep test test test the test some more test.</p>
+						<div class="overlay">
+							<p id="caseStudy8OriginalText"><strong>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do that so we
+								can keep test test test the test some more test.</strong></p>
+							<p id="caseStudy8AdditionalText" style="display: none;"><strong>This is some alternative text so you can now see it!.</strong></p>
+						</div>
+						<div>
+							<input type="checkbox" name="cb" id="cb8" />
+							<label for="cb8">Send me case study</label>
+						</div>
 					</div>
-					<div>
-						<span>Send me case study <input id="caseStudy2" type="checkbox"></span>
-					</div>
-				</div>
 
-				<div class="box">
+					<div class="box" onmouseover="additionalTextCaseStudy9();" onmouseout="originalTextCaseStudy9();">
 					<img src="http://www.planwallpaper.com/static/images/HD-Wallpapers1_FOSmVKg.jpeg" />
-					<div class="overlay">
-						<p>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do that so we can keep test test test the test some more test.</p>
+						<div class="overlay">
+							<p id="caseStudy9OriginalText"><strong>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do that so we
+								can keep test test test the test some more test.</strong></p>
+							<p id="caseStudy9AdditionalText" style="display: none;"><strong>This is some alternative text so you can now see it!.</strong></p>
+						</div>
+						<div>
+							<input type="checkbox" name="cb" id="cb9" />
+							<label for="cb9">Send me case study</label>
+						</div>
 					</div>
-					<div>
-						<span>Send me case study <input id="caseStudy3" type="checkbox"></span>
-					</div>
-				</div>
 
-				<div class="box">
+					<div class="box" onmouseover="additionalTextCaseStudy10();" onmouseout="originalTextCaseStudy10();">
 					<img src="http://www.planwallpaper.com/static/images/79438-blue-world-map_nJEOoUQ.jpg" />
-					<div class="overlay">
-						<p>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do that so we can keep test test test the test some more test.</p>
+						<div class="overlay">
+							<p id="caseStudy10OriginalText"><strong>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do that so we
+								can keep test test test the test some more test.</strong></p>
+							<p id="caseStudy10AdditionalText" style="display: none;"><strong>This is some alternative text so you can now see it!.</strong></p>
+						</div>
+						<div>
+							<input type="checkbox" name="cb" id="cb10" />
+							<label for="cb10">Send me case study</label>
+						</div>
 					</div>
-					<div>
-						<span>Send me case study <input id="caseStudy4" type="checkbox"></span>
-					</div>
-				</div>
 
-				<div class="box">
-					<img src="http://www.planwallpaper.com/static/images/6768666-1080p-wallpapers.jpg" />
-					<div class="overlay">
-						<p>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do that so we can keep test test test the test some more test.</p>
+					<div class="box" onmouseover="additionalTextCaseStudy11();" onmouseout="originalTextCaseStudy11();">
+						<img src="http://www.planwallpaper.com/static/images/6768666-1080p-wallpapers.jpg" />
+						<div class="overlay">
+							<p id="caseStudy11OriginalText"><strong>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do that so we
+								can keep test test test the test some more test.</strong></p>
+							<p id="caseStudy11AdditionalText" style="display: none;"><strong>This is some alternative text so you can now see it!.</strong></p>
+						</div>
+						<div>
+							<input type="checkbox" name="cb" id="cb11" />
+							<label for="cb11">Send me case study</label>
+						</div>
 					</div>
-					<div>
-						<span>Send me case study <input id="caseStudy5" type="checkbox"></span>
-					</div>
-				</div>
 
-				<div class="box">
-					<img src="http://www.planwallpaper.com/static/images/6768666-1080p-wallpapers.jpg" />
-					<div class="overlay">
-						<p>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do that so we can keep test test test the test some more test.</p>
-					</div>
-					<div>
-						<span>Send me case study <input id="caseStudy6" type="checkbox"></span>
-					</div>
-				</div>
-				<div class="box">
-					<img src="http://www.planwallpaper.com/static/images/Eiffel-Tower-lanscape-Wallpaper-HD.jpg" />
-					<div class="overlay">
-						<p>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do that so we can keep test test test the test some more test.</p>
-					</div>
-					<div>
-						<span>Send me case study <input id="caseStudy1" type="checkbox"></span>
-					</div>
-				</div>
-
-				<div class="box">
-					<img src="http://www.planwallpaper.com/static/images/colorful-easter-eggs-holiday-hd-wallpaper-1920x1200-10811.jpg" />
-					<div class="overlay">
-						<p>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do that so we can keep test test test the test some more test.</p>
-					</div>
-					<div>
-						<span>Send me case study <input id="caseStudy2" type="checkbox"></span>
-					</div>
-				</div>
-
-				<div class="box">
-					<img src="http://www.planwallpaper.com/static/images/HD-Wallpapers1_FOSmVKg.jpeg" />
-					<div class="overlay">
-						<p>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do that so we can keep test test test the test some more test.</p>
-					</div>
-					<div>
-						<span>Send me case study <input id="caseStudy3" type="checkbox"></span>
-					</div>
-				</div>
-
-				<div class="box">
-					<img src="http://www.planwallpaper.com/static/images/79438-blue-world-map_nJEOoUQ.jpg" />
-					<div class="overlay">
-						<p>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do that so we can keep test test test the test some more test.</p>
-					</div>
-					<div>
-						<span>Send me case study <input id="caseStudy4" type="checkbox"></span>
-					</div>
-				</div>
-
-				<div class="box">
-					<img src="http://www.planwallpaper.com/static/images/6768666-1080p-wallpapers.jpg" />
-					<div class="overlay">
-						<p>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do that so we can keep test test test the test some more test.</p>
-					</div>
-					<div>
-						<span>Send me case study <input id="caseStudy5" type="checkbox"></span>
-					</div>
-				</div>
-
-				<div class="box">
-					<img src="http://www.planwallpaper.com/static/images/6768666-1080p-wallpapers.jpg" />
-					<div class="overlay">
-						<p>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do that so we can keep test test test the test some more test.</p>
-					</div>
-					<div>
-						<span>Send me case study <input id="caseStudy6" type="checkbox"></span>
+					<div class="box" onmouseover="additionalTextCaseStudy12();" onmouseout="originalTextCaseStudy12();">
+						<img src="http://www.planwallpaper.com/static/images/6768666-1080p-wallpapers.jpg" />
+						<div class="overlay">
+							<p id="caseStudy12OriginalText"><strong>This is a bunch of fake lorem ipsum text for the case study box so we can test it out and what not so let's go ahead and do that so we
+								can keep test test test the test some more test.</strong></p>
+							<p id="caseStudy12AdditionalText" style="display: none;"><strong>This is some alternative text so you can now see it!.</strong></p>
+						</div>
+						<div>
+							<input type="checkbox" name="cb" id="cb12" />
+							<label for="cb12">Send me case study</label>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -479,7 +468,7 @@
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-sm-5 footer-social">
-	                    <a class="ultm ultm-facebook ultm-48 ultm-square ultm-gray-to-color" href=""></a>
+	                    <a class="ultm ultm-facebook ultm-48 ultm-square ultm-gray-to-color" href="https://www.facebook.com/NETSVS/" target="_blank"></a>
 	                    <a class="ultm ultm-twitter ultm-48 ultm-square ultm-gray-to-color" href=""></a>
 	                    <a class="ultm ultm-google-plus-1 ultm-48 ultm-square ultm-gray-to-color" href=""></a>
 	                    <a class="ultm ultm-dribbble ultm-48 ultm-square ultm-gray-to-color" href=""></a>
@@ -499,8 +488,8 @@
         <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
         <script src="assets/js/jquery.ui.map.min.js"></script>
         <script src="assets/js/scripts.js"></script>
-        
-        <!--[if lt IE 10]>
+		<script src="assets/js/caseStudies.js"></script>
+		<!--[if lt IE 10]>
             <script src="assets/js/placeholder.js"></script>
         <![endif]-->
 

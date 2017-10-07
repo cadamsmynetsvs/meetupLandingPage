@@ -126,16 +126,20 @@ nav a:focus { color: #679A33; }
 .timer .minutes-wrapper,
 .timer .seconds-wrapper {
     display: inline-block;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     margin: 0 10px;
     padding-top: 20px;
     border: 1px solid #fff;
 	background: #282c37;
-	font-size: 18px;
+	font-size: 30px;
     -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
     cursor: pointer;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+.timer .days-wrapper {
+	background: #679A33;
 }
 
 .timer .days-wrapper:hover,
@@ -147,14 +151,20 @@ nav a:focus { color: #679A33; }
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
 
+.timer .days-wrapper:hover {
+	background: #282c37;
+}
+
+
 .timer .days,
 .timer .hours,
 .timer .minutes,
 .timer .seconds {
-    font-size: 60px;
-    font-weight: 100;
-    line-height: 90px;
+    font-size: 25px;
 	color: #fff;
+	position: relative;
+	top: 8px;
+	left: 2px;
 }
 
 .coming-soon p.top-arrow {
@@ -608,23 +618,37 @@ footer {
 
 .footer-social {
 	text-align: right;
+	width: 100%;
 }
 
 
 /***** Case Studies styles ****/
 
 /* Off Hover */
-.box{width:300px; height:250px; border:1px solid #000; border-radius:2px; float:left; margin:20px 30px;  }
-.box img{width:300px; height:250px;}
-.box .overlay{width:300px; height:250px; background:#fff; margin:-250px 0px 0px 0px; opacity:0.1; }
+.box{width:400px; height:350px; border:1px solid #000; border-radius:2px; float:left; margin:20px 30px; background-color: #ecf0f1; }
+.box img{width:400px; height:250px; opacity: 0.4;}
+.box .overlay{width:400px; height:350px; background: #ecf0f1; margin:-250px 0px 0px 0px; opacity:0.6; }
 .box a{padding:5px 7px; border:1px solid #000; text-decoration:none; font-family:sans-serif; font-size:14px; margin:-140px 0px 0px 15px; display:inline-block; opacity:0; transition:all 0.5s ease-in-out;    cursor: pointer;/* z-index: 10000; */position: absolute;}
 
 
 /* On Hover */
-.box .overlay:hover{opacity:0.9; transition:all 0.5s ease-in-out; width:300px; margin-left:50px; float:right; }
+.box .overlay:hover{opacity:0.9; transition:all 0.5s ease-in-out; width:400px; margin-left:50px; float:right; }
 .box:hover{box-shadow:0px 0px 10px #6A6A6A; border:1px solid #00DFDF;transition:all 0.5s ease-in-out;}
 .box:hover a{opacity:1; background:#FFFFFF; color:#000000; margin:-40px 0px 0px 15px;  border-radius:1px; }
 .box a:hover{border:1px solid #00DFDF;transition:all 0.5s ease-in-out;   }
+
+
+.box_p {
+	display:block;
+	font-size: 15px;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: left;
+}
+
+#boxContainer {
+	padding-left: 10%;
+}
 
 
 /******** Custom Styles ********/
@@ -637,18 +661,115 @@ p {
 	color: #282c37;
 }
 
+/**** Main Header Styles ****/
 
+#mainHeaderh2 {
+	color: #282c37;
+	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+	font-size: 55px;
+}
+
+#timer-container {
+	height: 360px;
+}
+
+#timerDiv {
+}
+
+#chevronArrow {
+}
 
 /** Logo Styles **/
+
 .logoStyles {
 	height: 75%;
 	width: 75%;
 }
 
-.mainHeaderLogo {
-	width: 25%;
-	height: 25%;
+#mainHeaderLogo {
+	width: 20%;
+	height: 20%;
+	position: relative;
+	bottom: 35px;
 }
+
+/**** RPA Overview Styles ****/
+#capitalLetterRobot{
+	color: #1D94AD;
+	font-size: 150%;
+}
+
+#capitalLetterEvery {
+	color: #1D94AD;
+	font-size: 150%;
+}
+
+/**** Fancy Checkbox Styles ****/
+body {
+	background: #ecf0f1;
+	color: #1D94AD;
+}
+.center-on-page {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+input[type="checkbox"],
+input[type="radio"] {
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+}
+label {
+	position: relative;
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 10px;
+	line-height: 36px;
+	cursor: pointer;
+}
+label::before {
+	content: " ";
+	position: absolute;
+	top: 6px;
+	left: 0;
+	display: block;
+	width: 24px;
+	height: 24px;
+	border: 2px solid #1D94AD;
+	border-radius: 4px;
+	z-index: -1;
+}
+input[type="radio"] + label::before {
+	border-radius: 18px;
+}
+/* Checked */
+input[type="checkbox"]:checked + label,
+input[type="radio"]:checked + label {
+	padding-left: 10px;
+	color: #fff;
+}
+input[type="checkbox"]:checked + label::before,
+input[type="radio"]:checked + label::before {
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #1D94AD;
+}
+/* Transition */
+label,
+label::before {
+	-webkit-transition: .25s all ease;
+	-o-transition: .25s all ease;
+	transition: .25s all ease;
+}
+
+
+
+
 
 
 
