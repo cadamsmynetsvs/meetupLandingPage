@@ -38,10 +38,13 @@
         bottom: 180px;"
     }
 
+<<<<<<< HEAD
     #boxContainer {
         padding-left: 20%;
     }
 
+=======
+>>>>>>> 99fac8bf49d71b1252cf8b68f32ea2ffb485d4cf
 }
 
 @media (max-width: 991px) {
@@ -82,10 +85,14 @@
     .timer .minutes-wrapper,
     .timer .seconds-wrapper {
         font-size: 15px;
+<<<<<<< HEAD
     }
 
     #boxContainer {
         padding-left: 15%;
+=======
+
+>>>>>>> 99fac8bf49d71b1252cf8b68f32ea2ffb485d4cf
     }
 
 
@@ -140,10 +147,13 @@
 
     }
 
+<<<<<<< HEAD
     #boxContainer {
         padding-left: 10%;
     }
 
+=======
+>>>>>>> 99fac8bf49d71b1252cf8b68f32ea2ffb485d4cf
 }
 
 @media (max-width: 400px) {
@@ -154,6 +164,7 @@
         height: 180px;
     }
 
+<<<<<<< HEAD
     #boxContainer {
         padding-left: 0%;
     }
@@ -167,4 +178,6 @@
 
     /* On Hover */
     .box .overlay:hover{opacity:0.9; transition:all 0.5s ease-in-out; width:300px; margin-left:50px; float:right; }
+=======
+>>>>>>> 99fac8bf49d71b1252cf8b68f32ea2ffb485d4cf
 }

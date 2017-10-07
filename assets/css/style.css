@@ -625,9 +625,15 @@ footer {
 /***** Case Studies styles ****/
 
 /* Off Hover */
+<<<<<<< HEAD
 .box{width:400px; height:350px; border:1px solid #000; border-radius:2px; float:left; margin:20px 30px; background-color: #ecf0f1; }
 .box img{width:400px; height:250px; opacity: 0.4;}
 .box .overlay{width:400px; height:350px; background: #ecf0f1; margin:-250px 0px 0px 0px; opacity:0.6; }
+=======
+.box{width:300px; height:250px; border:1px solid #000; border-radius:2px; float:left; margin:20px 30px;  }
+.box img{width:300px; height:250px; opacity: 1;}
+.box .overlay{width:300px; height:250px; background:#fff; margin:-250px 0px 0px 0px; opacity:0.6; }
+>>>>>>> 99fac8bf49d71b1252cf8b68f32ea2ffb485d4cf
 .box a{padding:5px 7px; border:1px solid #000; text-decoration:none; font-family:sans-serif; font-size:14px; margin:-140px 0px 0px 15px; display:inline-block; opacity:0; transition:all 0.5s ease-in-out;    cursor: pointer;/* z-index: 10000; */position: absolute;}
 
 
@@ -638,6 +644,7 @@ footer {
 .box a:hover{border:1px solid #00DFDF;transition:all 0.5s ease-in-out;   }
 
 
+<<<<<<< HEAD
 .box_p {
 	display:block;
 	font-size: 15px;
@@ -649,6 +656,10 @@ footer {
 #boxContainer {
 	padding-left: 10%;
 }
+=======
+
+
+>>>>>>> 99fac8bf49d71b1252cf8b68f32ea2ffb485d4cf
 
 
 /******** Custom Styles ********/
@@ -668,11 +679,19 @@ p {
 	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 	font-size: 55px;
 }
+<<<<<<< HEAD
 
 #timer-container {
 	height: 360px;
 }
 
+=======
+
+#timer-container {
+	height: 360px;
+}
+
+>>>>>>> 99fac8bf49d71b1252cf8b68f32ea2ffb485d4cf
 #timerDiv {
 }
 
@@ -691,6 +710,7 @@ p {
 	height: 20%;
 	position: relative;
 	bottom: 35px;
+<<<<<<< HEAD
 }
 
 /**** RPA Overview Styles ****/
@@ -699,6 +719,16 @@ p {
 	font-size: 150%;
 }
 
+=======
+}
+
+/**** RPA Overview Styles ****/
+#capitalLetterRobot{
+	color: #1D94AD;
+	font-size: 150%;
+}
+
+>>>>>>> 99fac8bf49d71b1252cf8b68f32ea2ffb485d4cf
 #capitalLetterEvery {
 	color: #1D94AD;
 	font-size: 150%;
