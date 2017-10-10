@@ -1,13 +1,10 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
-	.show-menu, .hide-menu { right: 50px; }
+    .show-menu, .hide-menu { right: 50px; }
 
-	.coming-soon p { padding: 0 120px; }
+    .coming-soon p { padding: 0 120px; }
 
-    #boxContainer {
-        padding-left: 25%;
-    }
 
 
 }
@@ -18,7 +15,7 @@
         width: 90px; height: 90px; margin: 0 7px; padding-top: 20px;
     }
     .timer .days, .timer .hours, .timer .minutes, .timer .seconds { font-size: 50px; line-height: 70px; }
-    
+
     .coming-soon p, .about p, .whos-behind p, .contact p { padding: 0; }
 
     /**** Main Header Styles ****/
@@ -38,20 +35,13 @@
         bottom: 180px;"
     }
 
-<<<<<<< HEAD
-    #boxContainer {
-        padding-left: 20%;
-    }
-
-=======
->>>>>>> 99fac8bf49d71b1252cf8b68f32ea2ffb485d4cf
 }
 
 @media (max-width: 991px) {
 
-	.show-menu { right: 30px; }
-	.hide-menu { position: static; top: auto; right: auto; z-index: auto; }
-	.hide-menu a { padding-top: 0; }
+    .show-menu { right: 30px; }
+    .hide-menu { position: static; top: auto; right: auto; z-index: auto; }
+    .hide-menu a { padding-top: 0; }
 
     /**** Main Header Styles ****/
     #mainHeaderh2 {
@@ -85,14 +75,7 @@
     .timer .minutes-wrapper,
     .timer .seconds-wrapper {
         font-size: 15px;
-<<<<<<< HEAD
-    }
 
-    #boxContainer {
-        padding-left: 15%;
-=======
-
->>>>>>> 99fac8bf49d71b1252cf8b68f32ea2ffb485d4cf
     }
 
 
@@ -109,13 +92,13 @@
         width: 50px; height: 50px; margin: 7px; padding-top: 20px;
     }
     .timer .days, .timer .hours, .timer .minutes, .timer .seconds { font-size: 20px; top: -11px; }
-    
+
     .subscribe form input.subscribe-email, .subscribe button.btn { width: 100%; }
-    
+
     .contact-form, .contact-address { text-align: center; }
     .contact-form { padding-bottom: 40px; }
     .contact-form form input, .contact-form form textarea { width: 100%; }
-    
+
     .footer-copyright p, .footer-social { text-align: center; }
     .footer-social { margin-top: 15px; }
 
@@ -147,37 +130,49 @@
 
     }
 
-<<<<<<< HEAD
-    #boxContainer {
-        padding-left: 10%;
+    .box {
+        position: relative;
+        right: 0px;
     }
 
-=======
->>>>>>> 99fac8bf49d71b1252cf8b68f32ea2ffb485d4cf
 }
 
 @media (max-width: 400px) {
 
-	.show-menu { right: 10px; }
+    .show-menu { right: 10px; }
 
     #timer-container {
         height: 180px;
     }
 
-<<<<<<< HEAD
-    #boxContainer {
-        padding-left: 0%;
+    .box {
+        position: relative;
+        right: 35px;
     }
 
-    /***** Case Studies styles ****/
+}
 
-    /* Off Hover */
-    .box{width:300px; height:350px; border:1px solid #000; border-radius:2px; float:left; margin:20px 30px; background-color: #ecf0f1; }
-    .box img{width:300px; height:250px; opacity: 0.4;}
-    .box .overlay{width:300px; height:350px; background: #ecf0f1; margin:-250px 0px 0px 0px; opacity:0.6; }
+/* iPad Pro Media queries */
+@media only screen
+and (min-device-width : 1024px)
+and (max-device-width : 1366px) {
+    .box {
+        position: relative;
+        right: 0px;
+        left: 110px;
+    }
+}
 
-    /* On Hover */
-    .box .overlay:hover{opacity:0.9; transition:all 0.5s ease-in-out; width:300px; margin-left:50px; float:right; }
-=======
->>>>>>> 99fac8bf49d71b1252cf8b68f32ea2ffb485d4cf
+/* iPhone 6 portrait */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2)
+{
+    .box {
+        position: relative;
+        right: 0px;
+        left: 0px;
+    }
 }

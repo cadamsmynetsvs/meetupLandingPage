@@ -19,7 +19,6 @@ img { max-width: 100%; }
 ::-moz-selection { background: #679A33; color: #fff; text-shadow: none; }
 ::selection { background: #679A33; color: #fff; text-shadow: none; }
 
-
 /***** Top menu *****/
 
 nav {
@@ -125,17 +124,17 @@ nav a:focus { color: #679A33; }
 .timer .hours-wrapper,
 .timer .minutes-wrapper,
 .timer .seconds-wrapper {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    margin: 0 10px;
-    padding-top: 20px;
-    border: 1px solid #fff;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 0 10px;
+	padding-top: 20px;
+	border: 1px solid #fff;
 	background: #282c37;
 	font-size: 30px;
-    -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
-    cursor: pointer;
-    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
+	cursor: pointer;
+	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
 
 .timer .days-wrapper {
@@ -146,8 +145,8 @@ nav a:focus { color: #679A33; }
 .timer .hours-wrapper:hover,
 .timer .minutes-wrapper:hover,
 .timer .seconds-wrapper:hover {
-    background: #679A33;
-    border: 1px solid #679A33;
+	background: #679A33;
+	border: 1px solid #679A33;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
 
@@ -155,12 +154,11 @@ nav a:focus { color: #679A33; }
 	background: #282c37;
 }
 
-
 .timer .days,
 .timer .hours,
 .timer .minutes,
 .timer .seconds {
-    font-size: 25px;
+	font-size: 25px;
 	color: #fff;
 	position: relative;
 	top: 8px;
@@ -196,7 +194,7 @@ nav a:focus { color: #679A33; }
 	font-weight: 300;
 }
 
-.coming-soon p.top-arrow i:before, 
+.coming-soon p.top-arrow i:before,
 .coming-soon p.top-arrow i:after {
 	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
@@ -222,7 +220,7 @@ nav a:focus { color: #679A33; }
 .subscribe p {
 	margin-top: 30px;
     font-size: 22px;
-    color: #3d3d3d;
+	color: #3d3d3d;
     line-height: 36px;
 }
 
@@ -251,13 +249,12 @@ nav a:focus { color: #679A33; }
 	color: #679A33;
 }
 
-
 /***** About the new site *****/
 
 .about-container {
     margin: 60px auto 0 auto;
     padding-bottom: 60px;
-    color: #3d3d3d;
+	color: #3d3d3d;
 }
 
 .about {
@@ -295,16 +292,16 @@ nav a:focus { color: #679A33; }
 }
 
 .about-box-1 .about-box-1-icon {
-    width: 140px;
-    height: 140px;
-    margin: 0 auto;
-    padding-top: 28px;
-    background: #679A33;
-    border: 1px solid #679A33;
-    font-size: 56px;
-    -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
-    cursor: pointer;
-    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+	width: 140px;
+	height: 140px;
+	margin: 0 auto;
+	padding-top: 28px;
+	background: #679A33;
+	border: 1px solid #679A33;
+	font-size: 56px;
+	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
+	cursor: pointer;
+	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
 
 .about-box-1 .about-box-1-icon:hover {
@@ -312,7 +309,6 @@ nav a:focus { color: #679A33; }
     border: 1px solid #fff;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
-
 
 /***** Testimonials *****/
 
@@ -331,7 +327,7 @@ nav a:focus { color: #679A33; }
 .testimonials p {
 	margin-top: 30px;
     font-size: 22px;
-    color: #282c37;
+	color: #282c37;
     line-height: 36px;
 }
 
@@ -368,13 +364,12 @@ nav a:focus { color: #679A33; }
 	color: #282c37;
 }
 
-
 /***** Who's behind this *****/
 
 .whos-behind-container {
     margin: 0 auto;
     padding-bottom: 60px;
-    color: #282c37;
+	color: #282c37;
 }
 
 .whos-behind {
@@ -409,11 +404,11 @@ nav a:focus { color: #679A33; }
 .whos-behind-box-1 h5 {
 	padding-bottom: 7px;
 	font-size: 15px;
-    font-weight: 300;
-    line-height: 22px;
-    color: #3d3d3d;
-    color: rgba(255, 255, 255, 0.6);
-    text-transform: uppercase;
+	font-weight: 300;
+	line-height: 22px;
+	color: #3d3d3d;
+	color: rgba(255, 255, 255, 0.6);
+	text-transform: uppercase;
 }
 
 .whos-behind-box-1 p {
@@ -439,11 +434,11 @@ nav a:focus { color: #679A33; }
 	position: absolute;
 	top: -150px;
 	left: 0;
-    width: 140px;
-    height: 140px;
-    padding-top: 58px;
-    background: #679A33;
-    opacity: 0;
+	width: 140px;
+	height: 140px;
+	padding-top: 58px;
+	background: #679A33;
+	opacity: 0;
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 	-o-transition: all .4s; -moz-transition: all .4s; -webkit-transition: all .4s; -ms-transition: all .4s; transition: all .4s;
 }
@@ -453,8 +448,8 @@ nav a:focus { color: #679A33; }
 	opacity: 1;
 }
 
-.whos-behind-box-1 .whos-behind-photo .whos-behind-social, 
-.whos-behind-box-1 .whos-behind-photo .whos-behind-social a, 
+.whos-behind-box-1 .whos-behind-photo .whos-behind-social,
+.whos-behind-box-1 .whos-behind-photo .whos-behind-social a,
 .whos-behind-box-1 .whos-behind-photo .whos-behind-social a:hover {
 	border: 0;
 	font-size: 18px;
@@ -510,7 +505,6 @@ nav a:focus { color: #679A33; }
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
 
-
 /***** How to contact us *****/
 
 .contact {
@@ -529,17 +523,17 @@ nav a:focus { color: #679A33; }
 	margin-top: 30px;
 	padding: 0 120px;
     font-size: 22px;
-    color: #3d3d3d;
+	color: #3d3d3d;
     line-height: 36px;
 }
 
-.contact-form, 
+.contact-form,
 .contact-address {
 	padding-bottom: 80px;
 	text-align: left;
 }
 
-.contact-form h4, 
+.contact-form h4,
 .contact-address h4 {
 	padding: 0 0 10px 0;
 	font-size: 30px;
@@ -559,7 +553,7 @@ nav a:focus { color: #679A33; }
 	margin: 15px 0 0 0;
 }
 
-.contact-form form input, 
+.contact-form form input,
 .contact-form form textarea {
     width: 90%;
     height: 52px;
@@ -586,7 +580,7 @@ nav a:focus { color: #679A33; }
 .contact-address p {
 	margin-bottom: 5px;
 	font-size: 18px;
-	color: #3d3d3d;
+	color: #888;
     line-height: 32px;
 }
 
@@ -597,12 +591,11 @@ nav a:focus { color: #679A33; }
 	vertical-align: middle;
 }
 
-
 /***** Footer *****/
 
 footer {
 	padding: 20px 0 16px 0;
-	background:  #282c37;
+	background: #282c37;
 	text-align: left;
 }
 
@@ -618,51 +611,34 @@ footer {
 
 .footer-social {
 	text-align: right;
-	width: 100%;
 }
-
 
 /***** Case Studies styles ****/
 
 /* Off Hover */
-<<<<<<< HEAD
-.box{width:400px; height:350px; border:1px solid #000; border-radius:2px; float:left; margin:20px 30px; background-color: #ecf0f1; }
-.box img{width:400px; height:250px; opacity: 0.4;}
-.box .overlay{width:400px; height:350px; background: #ecf0f1; margin:-250px 0px 0px 0px; opacity:0.6; }
-=======
-.box{width:300px; height:250px; border:1px solid #000; border-radius:2px; float:left; margin:20px 30px;  }
-.box img{width:300px; height:250px; opacity: 1;}
-.box .overlay{width:300px; height:250px; background:#fff; margin:-250px 0px 0px 0px; opacity:0.6; }
->>>>>>> 99fac8bf49d71b1252cf8b68f32ea2ffb485d4cf
+.box{width:300px; height:425px; border:1px solid #000; border-radius:2px; float:left; margin:20px 30px; background-color: #ecf0f1; }
+.box img{width:300px; height:250px; opacity: 0.4;}
+.box .overlay{width:300px; height:425px; background: #ecf0f1; margin:-250px 0px 0px 0px; margin-left:50px; float:right;  opacity:0.6; }
 .box a{padding:5px 7px; border:1px solid #000; text-decoration:none; font-family:sans-serif; font-size:14px; margin:-140px 0px 0px 15px; display:inline-block; opacity:0; transition:all 0.5s ease-in-out;    cursor: pointer;/* z-index: 10000; */position: absolute;}
 
 
 /* On Hover */
-.box .overlay:hover{opacity:0.9; transition:all 0.5s ease-in-out; width:400px; margin-left:50px; float:right; }
+.box .overlay:hover{opacity:0.9; transition:all 0.5s ease-in-out; width:300px; margin-left:50px; float:right; }
 .box:hover{box-shadow:0px 0px 10px #6A6A6A; border:1px solid #00DFDF;transition:all 0.5s ease-in-out;}
 .box:hover a{opacity:1; background:#FFFFFF; color:#000000; margin:-40px 0px 0px 15px;  border-radius:1px; }
 .box a:hover{border:1px solid #00DFDF;transition:all 0.5s ease-in-out;   }
 
 
-<<<<<<< HEAD
+#cb1, #cb2, #cb3, #cb4, #cb5, #cb6, #cb7, #cb8, #cb9, #cb10, #cb11, #cb12 {
+	z-index: 5;
+}
+
 .box_p {
-	display:block;
-	font-size: 15px;
-	margin-right: 10px;
-	margin-left: 10px;
 	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
-#boxContainer {
-	padding-left: 10%;
-}
-=======
-
-
->>>>>>> 99fac8bf49d71b1252cf8b68f32ea2ffb485d4cf
-
-
-/******** Custom Styles ********/
 
 body {
 	background-color : #fff;
@@ -679,19 +655,11 @@ p {
 	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 	font-size: 55px;
 }
-<<<<<<< HEAD
 
 #timer-container {
 	height: 360px;
 }
 
-=======
-
-#timer-container {
-	height: 360px;
-}
-
->>>>>>> 99fac8bf49d71b1252cf8b68f32ea2ffb485d4cf
 #timerDiv {
 }
 
@@ -710,7 +678,6 @@ p {
 	height: 20%;
 	position: relative;
 	bottom: 35px;
-<<<<<<< HEAD
 }
 
 /**** RPA Overview Styles ****/
@@ -719,16 +686,6 @@ p {
 	font-size: 150%;
 }
 
-=======
-}
-
-/**** RPA Overview Styles ****/
-#capitalLetterRobot{
-	color: #1D94AD;
-	font-size: 150%;
-}
-
->>>>>>> 99fac8bf49d71b1252cf8b68f32ea2ffb485d4cf
 #capitalLetterEvery {
 	color: #1D94AD;
 	font-size: 150%;
@@ -798,8 +755,15 @@ label::before {
 }
 
 
+/**** Personal case study upload ****/
+.btn-primary {
+	background-color: #1D94AD;
+}
 
-
+.btn-primary:hover {
+	background-color: #fff;
+	color: #1D94AD;
+}
 
 
 

@@ -35,21 +35,22 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-    // $('.coming-soon').backstretch([
-    //   "assets/img/backgrounds/1.jpg"
-    // , "assets/img/backgrounds/2.jpg"
-    // , "assets/img/backgrounds/3.jpg"
-    // ], {duration: 3000, fade: 750});
-    //
-    // $('.about-container').backstretch("assets/img/backgrounds/2.jpg");
-    //
-    // $('.whos-behind-container').backstretch("assets/img/backgrounds/4.jpg");
+    $('.coming-soon').backstretch([
+      "assets/img/backgrounds/1.jpg"
+    , "assets/img/backgrounds/2.jpg"
+    , "assets/img/backgrounds/3.jpg"
+    ], {duration: 3000, fade: 750});
+    
+    $('.about-container').backstretch("assets/img/backgrounds/2.jpg");
+    
+    $('.whos-behind-container').backstretch("assets/img/backgrounds/4.jpg");
 
     /*
         Countdown initializer
     */
     var now = new Date();
-    var countTo = 25 * 24 * 60 * 60 * 1000 + now.valueOf();
+    var finalDate = new Date("October 31, 2017 6:30:00");
+    var countTo = finalDate;
     $('.timer').countdown(countTo, function(event) {
     	$(this).find('.days').text(event.offset.totalDays);
     	$(this).find('.hours').text(event.offset.hours);
